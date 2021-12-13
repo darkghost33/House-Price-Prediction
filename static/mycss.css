@@ -1,0 +1,131 @@
+@font-face {
+font-family: 'fredoka_oneregular';
+src: url('fonts/fredokaone-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style:normal;
+}
+
+@font-face {
+    font-family: 'caveatregular';
+    src: url('fonts/caveat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'im_fell_englishregular';
+    src: url('fonts/imfellenglish-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pacifico';
+    src: url('fonts/pacifico-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.background{
+    background-image: linear-gradient(#ADD8E6,aqua);
+    background-color: aqua;
+    height: 180px;
+    opacity: .4;
+    border-radius: 40px;
+}
+.background:hover{
+    background-image: linear-gradient(#ADD8E6,aqua,blue);
+    background-color: aqua;
+    height: 200px;
+    opacity: .4;
+    border-radius: 40px;
+}
+.text1{
+    font-family:fredoka_oneregular;
+    text-align:center;
+     padding-top: 30px;
+    opacity: 1;
+    text-shadow: 2px 2px 2px blue; 
+}
+.text1:hover{
+    font-family:fredoka_oneregular;
+    text-align:center;
+    color: aquamarine;
+     padding-top: 30px;
+    opacity: 1;
+    text-shadow: 2px 2px 2px blue; 
+}
+#header{
+    text-align-last:right;
+    padding: 5px;
+    margin-right: 30px;
+}
+.paragraph1{
+    font-family: caveatregular;
+    font-size: 25px;
+    color: #070707;
+}
+.paragraph1:hover{
+    font-family: caveatregular;
+    color: black;
+}
+.paragraph2{
+    font-family: caveatregular;
+    font-size: 25px;
+    color: #020202;
+}
+.paragraph2:hover{
+    font-family: caveatregular;
+    color: black;
+}
+.form{
+   text-align: center;
+    background-image: linear-gradient( aqua,#e1d9c7);
+    font-family: im_fell_englishregular;
+    padding: 5px;
+    border-radius: 40px;
+}
+.form:hover{
+   text-align: center;
+    background-image: linear-gradient( #87ceeb,aqua);
+    font-family: im_fell_englishregular;
+    padding: 5px;
+    border-radius: 40px;
+}
+input{
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    background: #e1d9c7;
+ transition: width 0.4s ease-in-out;
+}
+input:focus{
+    width:200px;
+    background: aqua;
+}
+
+.select_label{
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
+ select{
+    padding: 5px;
+    margin-bottom: 5px;
+    color: darkgreen;
+    border-radius: 20px;
+}
+#submitbtn{
+font-family:im_fell_englishregular;
+    border-radius: 20px;
+   background-color: #e1d9c7;
+    }
+
+#submitbtn:hover{
+    text-align: center;
+        background-image: linear-gradient( #87ceeb,rgb(252, 6, 6));
+        font-family: im_fell_englishregular;
+        padding: 5px;
+        border-radius: 40px;
+}

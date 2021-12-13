@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>House Price Pridiction</title>
+    <link rel="stylesheet" type="text/css" href="./static/mycss.css", media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="./static/mycss2.css", media="screen,projection"/>
+</head>
+<body>
+<div id="body">
+            <div class='background'>
+                <div class="text1">
+                    <h1>WELCOME TO ML HOUSE PRICE PREDICTION</h1>
+                </div>
+            </div>
+   
+    <div class=paragraph1>
+        <p>
+            I created this machine learning model using the linear regression. It tries to predict the price of the house based on the certain pretrained data .
+        </p>
+    </div>
+
+    <div id=result>
+        <p> {{pred}}</p>
+    </div>
+
+    <div class=paragraph2>
+        
+    </div>
+      <div class=form>
+        
+        <form action="/predict" method="post">
+            <label class='select_label'>Do you want <b>Bommanahalli</b> locality? </label>
+            
+            <Select id='Bommanahalli' name='Bommanahalli'>
+            <option value='1'>Yes</option>
+             <option selected value="0" >No</option>
+            </Select><br>
+
+             <label class='select_label'>Do you want <b>Whitefield</b> locality?   </label>
+            <Select id='Whitefield' name='Whitefield'>
+            <option value='1'>Yes</option>
+             <option selected value="0" >No</option>
+            </Select><br>
+
+            <label class='select_label'>Do you want <b>Three</b> BHK house? </label>
+            <Select id='BHK' name='BHK'>
+            <option value='3'>Yes</option>
+             <option selected value="0" >No</option>
+            </Select><br>
+
+            <label class='select_label'>Do you want <b>Two</b> BHK house? </label>
+            <Select id='BHK' name='BHK'>
+            <option value='2'>Yes</option>
+             <option selected value="0" >No</option>
+            </Select><br>
+
+            <label class='select_label'>Do you want <b>One</b> BHK house? </label>
+            <Select id='BHK' name='BHK'>
+            <option value='1'>Yes</option>
+             <option selected value="0" >No</option>
+            </Select><br>
+
+            <label class='select_label'>Do you want a <b>Furnished</b> house? </label>
+            <Select id='Furnishing' name='Furnishing'>
+            <option value='1'>Yes</option>
+             <option selected value="0" >No</option>
+            </Select><br>
+            
+            <label>Area (in square feet):</label><br>
+            <input type="number" placeholder="Enter Area here" id='Sq_ft' name='Sq_ft'><br><br>
+            
+            <label>Years old :</label><br>
+            <input type="number" placeholder="No. of Years Old" id='Old' name='Old'><br><br>
+            
+            <label>Number of Floors :</label><br>
+            <input type="number" placeholder="No. of Floors" id='Floor' name='Floor'><br>
+            
+            <br><br>
+                <button id=submitbtn type="submit" value="Submit">Submit</button><br><br>
+           </form>
+
+</body>
+    
+    
+</html>
