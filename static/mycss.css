@@ -28,17 +28,17 @@ font-style:normal;
 }
 
 .background{
-    background-image: linear-gradient(#ADD8E6,aqua);
-    background-color: aqua;
+    background-image: linear-gradient(#ADD8E6,rgb(96, 146, 146));
+    background-color: rgb(96, 146, 146);
     height: 180px;
     opacity: .4;
     border-radius: 40px;
 }
 .background:hover{
-    background-image: linear-gradient(#ADD8E6,aqua,blue);
-    background-color: aqua;
+    background-image: linear-gradient(#ADD8E6,rgb(96, 146, 146),rgb(78, 182, 223));
+    background-color: rgb(96, 146, 146);
     height: 200px;
-    opacity: .4;
+    opacity: .8;
     border-radius: 40px;
 }
 .text1{
@@ -64,11 +64,11 @@ font-style:normal;
 .paragraph1{
     font-family: caveatregular;
     font-size: 25px;
-    color: #070707;
+    color: black;
 }
 .paragraph1:hover{
     font-family: caveatregular;
-    color: black;
+    color: red;
 }
 .paragraph2{
     font-family: caveatregular;
@@ -81,17 +81,18 @@ font-style:normal;
 }
 .form{
    text-align: center;
-    background-image: linear-gradient( aqua,#e1d9c7);
+    background-image: linear-gradient( rgb(96, 146, 146),#e1d9c7);
     font-family: im_fell_englishregular;
     padding: 5px;
-    border-radius: 40px;
+    border-radius: 40px; opacity: .4;
 }
 .form:hover{
    text-align: center;
-    background-image: linear-gradient( #87ceeb,aqua);
+    background-image: linear-gradient( #87ceeb,rgb(96, 146, 146));
     font-family: im_fell_englishregular;
     padding: 5px;
-    border-radius: 40px;
+    border-radius: 40px;opacity: 1;
+    
 }
 input{
     width: 150px;
@@ -102,7 +103,7 @@ input{
 }
 input:focus{
     width:200px;
-    background: aqua;
+    background: rgb(96, 146, 146);
 }
 
 .select_label{
