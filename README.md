@@ -7,4 +7,4 @@ It is also deployed as a web app using the Flask web framework and HTML,CSS.
   Flask currently requires python 3.8 only,numpy,pandas,pickle.
   Command - pip install MODULE_NAME
 2)Use VS Code to run and install Live Server extension on it. 
-3)Run app.py in VS Code to create a local server which opens an html file in the browser.
+3)Run - app.py or flask run in VS Code to create a local server which opens an html file in the browser.

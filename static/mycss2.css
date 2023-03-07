@@ -1,5 +1,6 @@
 
 #result{
+    display: block;
     text-align: center;
     background-image: linear-gradient( #FFB6C1,#87ceeb,aqua);
     font-family: pacifico;
@@ -11,16 +12,4 @@
     text-shadow: 2px 2px 2px white;
 }
 
-#result1{
-    text-align: center;
-    background-image: linear-gradient( #FFB6C1,#87ceeb,aqua);
-    font-family: pacifico;
-    padding: 5px;
-    color:#002366 ;
-    border-radius: 40px;
-    margin: 5px;
-    float: bottom;
-    opacity: .8;
-    text-shadow: 2px 2px 2px white;
-}
 
